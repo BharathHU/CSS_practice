@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Business Card</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#e5e5e5;
+}
+.card{
+background:skyblue;
+padding:40px;
+border-radius:2px;
+}
+.inner-card{
+background:#f3f3f3;
+border-radius:15px;
+padding:30px;
+width:650px;
+display:flex;
+align-items:center;
+}
+.left{
+width:40%;
+text-align:center;
+}
+
+.logo img{
+width:60px;
+margin-bottom:10px;
+height: 100px;
+width: 100px;
+}
+
+.company{
+font-size:22px;
+font-weight:bold;
+margin-top:10px;
+}
+.qr{
+margin-top:30px;
+}
+
+.qr img{
+width:70px;
+height:70px;
+}
+.divider{
+width:2px;
+height:180px;
+background:#1c7f8c;
+margin:0 25px;
+}
+.right{
+width:60%;
+}
+
+.name{
+font-size:26px;
+font-weight:bold;
+margin-bottom:5px;
+margin-top:0px;
+position: relative;
+}
+
+.position{
+color:#555;
+margin-bottom:20px;
+}
+
+.info{
+margin:8px 0;
+font-size:15px;
+color:#333;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="inner-card">
+
+<div class="left">
+
+<div class="logo">
+</div>
+<div class="company">Dhee coding Lab</div>
+<div class="qr">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=example" alt="QR Code">
+</div>
+
+</div>
+
+<div class="divider"></div>
+<div class="right">
+
+<div class="name">Bharath H U</div>
+<div class="position">Full Stack Devlopper</div>
+
+<div class="info">📞 +91 7975414457</div>
+<div class="info">✉ bharathhubharath@gmail.com</div>
+<div class="info">🌐 www.bharath.com</div>
+<div class="info">📍 Bengaluru,Karnatakaa</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

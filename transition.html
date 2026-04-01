@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            margin: 150px auto;
+            transition: background-color 3s,border-radius 5s;
+        }
+        .box:hover{
+            background-color: red;
+            border-radius: 50%;
+        }
+           .box{
+            height: 300px;
+            width: 300px;
+           background-image: url('https://tse2.mm.bing.net/th/id/OIP.F9dKfrl-XAW-rVO5oYS_jAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3');
+            margin: 150px auto;
+            background-position: center;
+            background-size: cover;
+          transition: background-image 4s,height 3s,width 5s;
+          transition-timing-function: ease-in-out;
+        }
+        .box:hover{
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/402/943/desktop-wallpaper-d-boss-yajamana-by-quitereality-yajamana.jpg');
+           height: 400px;
+           width: 400px;
+        }
+        button{
+            height: 60px;
+            width: 160px;
+            border: none;
+            background-color: blue;
+            color: white;
+            transition: width,border-radius,text-transform,border,box-shadow,background-image;
+            transition-duration: 10s;
+
+        }
+        button:hover{
+            width: 200px;
+            border-radius: 10px;
+            text-transform: uppercase;
+            border: 5px solid black;
+            box-shadow: 0px 0px 7px red;
+            background-image: linear-gradient(orange,yellow);
+        }
+        .box1{
+            background-image: url(car.jpg);
+            height: 300px;
+            width: 300px;
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+        }
+        .box1:hover{
+            background-image: url('https://e1.pxfuel.com/desktop-wallpaper/402/943/desktop-wallpaper-d-boss-yajamana-by-quitereality-yajamana.jpg');
+           height: 400px;
+           width: 400px;
+              transform: translate(100px); 
+                transform: translateX(-300px);
+            transform: rotate(360deg);
+              
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            animation-name:ani infinity;
+            animation-duration: 10s;
+            margin-top: 40px;
+            border-radius: 30px;
+        }
+        @keyframes ani{
+            0%(background-color:red)
+            50%(background-color:yellow)
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+  <center>
+    <button>Load more</button>
+  </center>  
+  <div class="box1"></div>
+  <div class="box2"></div>
+</body>
+</html>

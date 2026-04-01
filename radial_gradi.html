@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-image:linear-gradient(to bottom left, red ,yellow ,green,pink,brown);
+        }
+        .box1{
+            height: 300px;
+            width: 300px;
+            background-image: repeating-radial-gradient(circle, black 10%,yellow 15%,red 20%);
+            border-radius: 10px;
+        }
+        .box2{
+            margin-top: 40px;
+            height: 350px;
+            width: 350px;
+            background-image: repeating-radial-gradient(circle,red 10%,yellow 20%,green 30%);
+        }
+        .box3{
+            height: 300px;
+            width: 300px;
+            background-image: conic-gradient(red 0deg,red 90deg,yellow 0deg,yellow 90deg,pink 0deg,pink 270deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

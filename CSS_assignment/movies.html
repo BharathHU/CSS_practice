@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            border: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .header{
+            color: white;
+            border: 2px solid black;
+            height: 60px;
+            background-color:rgb(59, 53, 53);
+            text-align: center;  
+            margin-bottom: 40px; 
+            padding-top: 20px;
+        
+        }
+        .main{
+            text-align: center;
+            margin-top: 30px;
+            background-color: white;
+            margin-left: 10px;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .child{
+            background-color:whitesmoke;
+            
+            height: 400px;
+            display:inline-block;
+            margin-left: 40px;
+            text-align: center;
+            box-shadow: 0px 0px 10px black;
+            border-radius: 10px;
+            padding: 8px;
+            text-align: center;
+            margin: 5px auto;
+            gap: 250px;
+            box-sizing: border-box;
+            margin-right: 60px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            
+        }
+       
+        button{
+            margin-top: 4px;
+            background-color: rgb(16, 177, 16);
+            box-shadow: 0px 0px 2px 2px;
+            color: white;
+            border-radius: 5px;
+            border-color: none;
+            margin-bottom: 50px;
+        }
+        .child:hover{
+            transform:scale(1.10);
+
+        }
+        .foot{
+            text-align: center;
+            font-size:x-large;
+            background-color: rgb(59, 53, 53);
+            height: 50px;
+            padding-top: 20px;
+            color: white;
+            margin-top: 50px;
+        }
+        .child1{
+            background-color:whitesmoke;
+            height: 400px;
+            display:inline-block;
+            text-align: center;
+            box-shadow: 0px 0px 10px black;
+            border-radius: 10px;
+            padding: 8px;
+            text-align: center;
+            box-sizing: border-box;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-right: 60px;
+            margin-left: 20px;
+        }
+        h2{
+            background-color: none;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align: start;
+            font-size:xx-large;
+            margin-left: 20px;
+        }
+        .child1:hover{
+            transform:scale(1.10);
+        }
+        button:hover{
+            color: yellow;
+            background-color: red;
+        }
+        button:active{
+            background-color: purple;
+        }
+        .perent{
+            margin-left: 30px;
+
+        }
+        .pch{
+            display: flex;
+            align-content: space-between;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <center><h1>Movies Showcase</h1></center>
+    </header>
+    <main>
+        <div class="perent">
+             <h1>Featured Movies</h1>
+             <h2>English Movies</h2>
+        </div>   
+        <div class="pch">    
+        <div class="child">
+            <img src="https://wallpapers.com/images/featured/uncharted-y5wt54otbfmw8wxy.jpg" alt="" height="300px" width="250px">
+            <center><h3>Uncharted</h3></center>
+            <p>ReleaseDate:2025 <br>
+            Genre:Action,Adventure</p>
+            <button>View More</button>
+            </div>
+            <div class="child">
+            <img src="https://thefamouspersonalities.com/media/quiz_uploads/2024/12/the7.jpg" alt="" height="300px" width="250px">
+            <center><h3>The Order</h3></center>
+            <p>ReleaseDate:2025 <br>
+                Genre:Drama,Thriller  </p>
+                <button>View More</button>
+        </div>
+        <div class="child">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.DZYs-_P5HyQp23-arDLabAHaLG?rs=1&pid=ImgDetMain&o=7&rm=3" alt="" height="300px" width="250px">
+            <center><h3>Chiller Party</h3></center>
+            <p>ReleaseDate:2025 <br>
+            Genre:Comedy,Family</p>
+            <button>View More</button>
+        </div>
+        <div class="child">
+            <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/04/if-poster.jpeg" alt="" height="300px" width="250px">
+            <center><h3>IF</h3></center>
+            <p>ReleaseDate:2025 <br>
+            Genre:Comedy</p>
+            <button>View More</button>
+        </div>
+        </div>
+        <h2>Kannada Movies</h2>
+        <div class="child1">
+            <img src="https://www.scrolldroll.com/wp-content/uploads/2022/05/Kurukshetra-Best-kannada-movies-of-all-time.jpeg" alt="" height="300px" width="250px">
+            <center><h3>Kurukshetra</h3></center>
+            <p>ReleaseDate:2018 <br>
+            Genre:Action,Mythological</p>
+            <button>View More</button>
+            </div>
+            <div class="child1">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/48062649160301.58aca9272bf51.jpg" alt="" height="300px" width="250px">
+            <center><h3>GadhiGiri</h3></center>
+            <p>ReleaseDate:2025 <br>
+                Genre:Drama,Action  </p>
+                <button>View More</button>
+        </div>
+        <div class="child1">
+            <img src="https://i.pinimg.com/originals/0f/dc/22/0fdc22996c7c82b0d9fdca9acde2906d.jpg" alt="" height="300px" width="250px">
+            <center><h3>Adhyaksha</h3></center>
+            <p>ReleaseDate:2014 <br>
+            Genre:Comedy,Family</p>
+            <button>View More</button>
+        </div>
+        <div class="child1">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/82602090065337.5e0c41ffdf235.jpg" alt="" height="300px" width="250px">
+            <center><h3>Robert</h3></center>
+            <p>ReleaseDate:2025 <br>
+            Genre:Action</p>
+            <button>View More</button>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <footer class="foot">&copy;2025 Movies Showcase.All rights reserved by Bharath H U</footer>
+</body>
+</html>

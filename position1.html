@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color:whitesmoke;
+            width: 100%;
+            height: fit-content;
+            margin: 0%;
+        }
+        .perent{
+            width: 100%;
+            border: 5px blue dashed;
+            display: flex;
+            top: 100px;
+            left: 200px;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+        .child{
+            height: 200px;
+            width: 200px;
+            gap: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 1px 7px;
+        }
+        .child:hover{
+            transform: scale(1.1);
+            
+        }
+        #box1{
+            background-color: greenyellow;
+            margin: 10px;
+            top: 80px;
+            left: 80px;
+            z-index: 3;
+        }
+        #box2{
+            background-color: red;
+            margin: 10px;
+             top: 20px;
+             left: 20px;
+             z-index: 1;
+        }
+        #box3{
+            background-color: black;
+            margin: 10px;
+           position:absolute;
+             top: 40px;
+             left: 40px;
+             z-index: 2;
+        }
+        #box1:active{
+            background-color: yellow;
+        }
+        #box2:active{
+            background-color: rgb(0, 8, 255);
+        }
+        #box3:active{
+            background-color: rgb(234, 0, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="perent">
+        <div class="child" id="box1"></div>
+        <div class="child" id="box2"></div>
+        <div class="child" id="box3"></div>
+    </div>
+</body>
+</html>
